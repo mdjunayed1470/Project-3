@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #212529;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display: block;
+        color: white;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    .logo h1 {
+        font-family: "Berkshire Swash", cursive;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .logo .logo-dot {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: #4eda4e;
+        border-radius: 50%;
+        right: 0;
+        top: 10px;
+        left: 180px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .banner-content{
+        padding: 3%;
+        padding-top: 4rem;
+    }
+    .banner-content h3{
+        line-height: 1.5rem;
+    }
+    .banner-content h1{
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .banner-content p{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    /* header end */
+    .featured-bike-header h1{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .featured-bike-header h4{
+        color: tomato;
+        position: relative;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .featured-bike-header h4::after{
+        top: 24px;
+    }
+    .feature-bike-1{
+        padding: 6%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-bike-1 img{
+        width: 17rem;
+        transition: .5s;
+    }
+    
+    /* bike section end */
+    #ever{
+        background-color: #0D0925;
+        padding:3% 0;
+        font-family: Poppins, sans-serif;
+    }
+    .ever-head{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
+        color: tomato;
+        position: relative;
+    }
+    .ever-head::after{
+        content: "";
+        top: 2.4rem;
+    }
+    .Motor-Company{
+        display: flex;
+        flex-direction: column;
+    }
+    .Motor-Company img{
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    .motor-company-txt{
+        width: 100%;
+        padding: 2%;
+    }
+    .motor-company-txt h1{
+        color: #E76F51;
+        font-size: 1.5rem;
+    }
+    .motor-company-txt h5{
+         margin-bottom: 30px;
+         font-size: 1rem;
+     }
+     .motor-company-txt p{
+        color: var(--p-color);
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    /* ever section end */
+    /* <!-- bike card --> */
+    .bike-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .bike-card-head{
+        font-size: 1rem;
+    }
+    .bike-card-head::after{
+        content: "";
+        position: absolute;
+        top: 90px;
+        width: 60px;
+    }
+
+    .bike-card p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .bike-btn{
+        margin-top: 20px;
+    }
+    .bike-btn h2{
+        font-size: 1.2rem;
+    }
+    .bike-btn button{
+        background-color: #E76F51;
+        border: none;
+        color: white;
+        padding: 1rem 1.4rem;
+        font-weight: bolder;
+        border-radius: 10px;
+    }
+    /* ever section end */
+    /* user section start */
+    .user-head{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 4% 0;
+        position: relative;
+    }
+    .user-head::after{
+        content: "";
+        top: 50px;
+    }
+    .user-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 30px;
+    }
+    /* user section end */
+    /* question section start */
+    .question-head{
+        text-align: center;
+        font-size: .8rem;
+        padding: 4% 0;
+        position: relative;
+    }
+    .question-head::after{
+        content: "";
+        top: 40px;
+        width: 60px;
+    }
+    /* footer start */
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+  
